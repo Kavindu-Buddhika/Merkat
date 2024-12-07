@@ -1,0 +1,51 @@
+.rf-register-form {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+.rf-input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  margin-bottom: 15px;
+}
+.rg-form {
+  margin: auto;
+}
+.rf-icon {
+  padding: 10px;
+  background: #1e90ff;
+  color: #fff;
+  min-width: 50px;
+  text-align: center;
+}
+.rf-input-field {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border-radius: 0;
+}
+.rf-input-field:focus {
+  border: 2px solid #1e90ff;
+}
+.rf-btn {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 0;
+}
+.rf-btn:hover {
+  opacity: 1;
+}
+.btn-primary:hover {
+  filter: opacity(0.7);
+}
+.dropdown-toggle {
+  text-decoration: none;
+}
